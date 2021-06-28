@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coversor de divisas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="divisa">
+        <div class="nombre">Euros</div>
+        <input class="valor" type="number" value="1" data-cambio="1" step="0.25" onChange="valorModificado(this)">
+    </div>
+    <div class="divisa">
+        <div class="nombre">Dólares</div>
+        <input class="valor" type="number" value="1" step="0.25" onChange="valorModificado(this)" id="USD">
+    </div>
+    <div class="divisa">
+        <div class="nombre">Libras</div>
+        <input class="valor" type="number" value="1" step="0.25" onChange="valorModificado(this)" id="GBP">
+    </div>
+    <div class="divisa">
+        <div class="nombre">Pesos</div>
+        <input class="valor" type="number" value="1" step="0.25" onChange="valorModificado(this)" id="COP">
+    </div>
+    <script src="scripts.js" type="text/javascript"></script>
+</body>
+
+</html>
